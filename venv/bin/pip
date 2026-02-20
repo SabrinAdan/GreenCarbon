@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/sabrinadanhassan/Library/Mobile Documents/com~apple~CloudDocs/nhh/vårSemester2026/For19/GreenCarbon – Kopi 2/venv/bin/python3.11" "$0" "$@"
-' '''
+#!/Users/hanus/Desktop/Luiss/coding/GDAP/project/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
