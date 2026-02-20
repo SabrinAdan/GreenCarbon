@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+  
+<!-- Header -->
+<section class="section_header_methodology">
+    <div class="container">
+  
+        <a href="{{ url_for('users.register') }}" class="btn btn-success me-2">Register</a>
+        <a href="{{ url_for('users.login') }}" class="btn btn-primary">Login</a>
+        
+    </div>
+</section> 
+
+{% endblock content %}
