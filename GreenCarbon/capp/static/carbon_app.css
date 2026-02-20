@@ -1,0 +1,50 @@
+.carbon-page{
+    width: 100%;       /* Spans full width */
+    max-width: 1200px; /* Maximum width of the content */
+    margin: 0 auto; 
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid white;
+    background-color: teal;
+    color: white;
+}
+
+
+.wrapper{
+    display: flex;      /* gjør at barna legger seg ved siden av hverandre */
+    gap: 20px;          /* mellomrom mellom boksene */
+    align-items: flex-start; /* justerer toppen */
+}
+.update{
+    border: 2px solid teal;
+    background-color: lightseagreen;
+    width: 700px; 
+    height: 300px;
+}
+
+.alternative{
+    border: 2px solid teal; /* du manglet solid her */
+    width: 300px; 
+    height: 300px;          /* sett samme høyde hvis du vil */
+    background-color: lightseagreen;
+
+}
+
+.recAlt{
+    border: 2px solid white; 
+    width: 275px;
+    height: 200px; 
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    
+
+}
