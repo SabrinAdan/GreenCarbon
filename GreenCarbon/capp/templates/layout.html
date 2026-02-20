@@ -21,6 +21,8 @@
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='layout.css') }}">
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='carbon_app.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='methodology.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='user.css') }}">
 
       <!-- To activate media queries in devices -->
       <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1">
@@ -37,7 +39,7 @@
          <div class="container"> 
             <div class="navbar">
               <h1 class="logo">
-                <span class="text-logo"><i class="fa-solid fa-leaf"></i> Carbon</span> App
+                <span class="text-logo" style="color:teal"><i class="fa-solid fa-leaf"></i> Carbon</span> App
               </h1>
               <nav>
                 <ul>
@@ -55,7 +57,7 @@
                       <a href="{{url_for('aboutUs.aboutUs_home')}}">About Us</a>
                     </li>
                     <li>
-                        <a href="{{url_for('user.user_home')}}">Log in</a>
+                        <a href="{{url_for('user.user_home')}}">User</a>
                     </li>
                     
                 </ul>

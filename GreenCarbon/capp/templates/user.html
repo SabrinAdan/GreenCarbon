@@ -2,12 +2,15 @@
 {% block content %}
   
 <!-- Header -->
-<section class="section_header_methodology">
+<section class="section_header_user">
     <div class="container">
-  
-        <a href="{{ url_for('user.register_home') }}" class="btn btn-success me-2">Register</a>
-        <a href="{{ url_for('user.login_home') }}" class="btn btn-primary">Login</a>
-        
+    <header class="page-header">
+        <div>
+            <h1> User <span style="color:teal"> Space </span></h1>
+        </div>
+        <a href="{{ url_for('user.register_home') }}" class="button">Register</a>
+        <a href="{{ url_for('user.login_home') }}" class="button">Login</a>
+    
     </div>
 </section> 
 
