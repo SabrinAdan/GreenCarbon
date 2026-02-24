@@ -10,3 +10,9 @@
     background-color: teal;
     color: white;
 }
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}

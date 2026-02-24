@@ -22,7 +22,8 @@
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='carbon_app.css') }}">
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='methodology.css') }}">
-      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='user.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='register.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
 
       <!-- To activate media queries in devices -->
       <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1">
@@ -57,7 +58,10 @@
                       <a href="{{url_for('aboutUs.aboutUs_home')}}">About Us</a>
                     </li>
                     <li>
-                        <a href="{{url_for('user.user_home')}}">User</a>
+                        <a href="{{url_for('user.register_home')}}">Register</a>
+                    </li>
+                    <li>
+                        <a href="{{url_for('user.login_home')}}">Login</a>
                     </li>
                     
                 </ul>
