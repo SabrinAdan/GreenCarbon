@@ -33,18 +33,12 @@
     border-radius: 8px;
     background-color: #f9f9f9;
     width: 500px;
+    position: sticky;
+    top: 7px;
 }
 .page-center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
-}
-
-.h2 {
-    display: flex;
-    flex-direction: column;   /* stacks h2 and content vertically */
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }

@@ -33,6 +33,8 @@
     border-radius: 8px;
     background-color: #f9f9f9;
     width: 500px;
+    position: sticky;
+    top: 70px;
 }
 .page-center {
     display: flex;
